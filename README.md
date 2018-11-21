@@ -4,7 +4,8 @@ This Docker setup is optimized for local development and is still a work in prog
 ### Makefile commands
 | command         | description                                      |
 | --              | --                                               |
-| docker-start    | Start all containers in detached mode            |
+| docker-build    | Re-build docker images                           |
+| docker-start    | Start all containers in foreground               |
 | docker-stop     | Stop all containers and remove Docker networks   |
 
 ### Prerequisites
@@ -20,7 +21,7 @@ For security purposes, the back-end code lives in an inaccessible location on th
 ### Contributing
 We encourage you to contribute to this repository by opening issues and submitting pull requests. In order to submit a PR, simply:
 
-1. Fork 
+1. Fork
 1. Branch
 1. Commit
 1. Push
