@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
-# development environment 
+# development environment
 # -----------------------------------------------------------------------------
 .DS_STORE
 
 # -----------------------------------------------------------------------------
-# integrated development environments 
+# integrated development environments
 # -----------------------------------------------------------------------------
 .idea
 
@@ -13,13 +13,9 @@
 # -----------------------------------------------------------------------------
 *.pyc
 
-/front/package.json
-/front/yarn.lock
-
 /front/public
 /front/node_modules
 
-/back/requirements.txt
 /back/pip-log.txt
 
 /data
